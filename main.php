@@ -5,7 +5,7 @@ $token = "6809413967:AAEBWon0s4hJeTPOnG4v6oxfsK_s4ZHWteQ";
 $data = file_get_contents("php://input");
 $bot = json_decode($data,true);
 $admin = 5486404008;
-$botu = "lucky_otp_bot";
+$botu = "AuthLinkAI_Bot";
 $fapi = "16c39e3a2f8880754611sjjsjsdd08750d0";
 $mid = "PJupsY798878030806";
 $sd = "5sim.net";
@@ -29,7 +29,7 @@ $ma = false;
 if (isset($bot['message'])) {
 $chat_id = $bot['message']['from']['id'];
 $message = $bot['message']['text'];
-if($chat_id == 6388548761||$chat_id == $admin){
+if($chat_id == 5486404008||$chat_id == $admin){
 }else{
 if($ma == true){
 sendMessage("Bot is Currently Off.
