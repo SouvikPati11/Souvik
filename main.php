@@ -4,7 +4,7 @@ echo "working";
 $token = "6809413967:AAEBWon0s4hJeTPOnG4v6oxfsK_s4ZHWteQ";
 $data = file_get_contents("php://input");
 $bot = json_decode($data,true);
-$admin = 6388548761;
+$admin = 5486404008;
 $botu = "lucky_otp_bot";
 $fapi = "16c39e3a2f8880754611sjjsjsdd08750d0";
 $mid = "PJupsY798878030806";
