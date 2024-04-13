@@ -10,13 +10,13 @@ $fapi = "16c39e3a2f8880754611sjjsjsdd08750d0";
 $mid = "PJupsY798878030806";
 $sd = "5sim.net";
 $sapi = "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA5MTE2MzcsImlhdCI6MTY5OTM3NTYzNywicmF5IjoiZGRmYTY3MGU0Y2YyOTI1NDI2MzIwMDJmNmZiYmU0N2MiLCJzdWIiOjE5NzYxMDh9.c5sLR5dRgQjtffWwr613fbelJzgoPl3WQj9Gv-YXSkfXW7qXhBFwApU4dLnumNJk4cpiB164Ow_-ZepuHN1O5ggmAUshjsnsnsngrl2VOkPSkDpVgSF6es-YkQUkW2I50QlcasCltTSeSVhZBPphO3pEwJRu6FvRcKzKdIonoM8o0rxRtFmgx6RqeahN8nOBQxRGJVX23t65n-OafQBKwhtYNz86UegHHjN3_kD7Ep8jtiTFvQmWFEIjUsFGWZKYnCfHFJAPWZZQnVrtAzSyikBaK9zijXB0IllJzR88GBpsxBFTZX5TdulLHCzz3fwsARrNA1J77hfyloYWHGEy_IA";
-$channel = "lucky_otp";
+$channel = "SocialBoosterSMH";
 $upi = "shivansh729@paytm";
-$pchannel = "payenmemekdj";//Payment channel 
+$pchannel = "SocialBoosterSMH";//Payment channel 
 $trx = "TTDMYfH679wm95mPAFK2EjD6dkBoKAdjbq";
 $qr = "https://graph.org/file/5974db1781cb19fa67d57.jpg";
 $support = "lucky_otp_owner";
-$schannel = "payenmemekdj";
+$schannel = "SocialBoosterSMH";
 function main($chat){
 if(file_exists("data/$chat.json")){
  return json_decode(file_get_contents("data/$chat.json"),true);
